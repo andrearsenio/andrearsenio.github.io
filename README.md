@@ -1,2 +1,2 @@
-# http://andrearsenio.github.io/index.html
+# http://andrearsenio.github.io/
 My personal website
