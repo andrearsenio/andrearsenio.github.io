@@ -5,8 +5,17 @@
 }
 
 header {
-	height: 100px;
+	height: auto;
 	padding: 5 15px;
+}
+
+header > img {
+	width: 100%;
+}
+
+header > i {
+	margin-bottom: 0.5rem;
+	display: block;
 }
 
 #content {
@@ -47,7 +56,7 @@ footer {
 	}
 
 	header, footer {
-		padding: 1% 4%;
+		padding: 10%;
 	}
 }
 
