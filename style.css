@@ -51,7 +51,7 @@ footer {
 	}
 }
 
-/* for 832px or less */ <!-- 832 because Mikas said so. And that is usually enough for me. -->
+/* for 832px or less 832 because Mikas said so. And that is usually enough for me. */
 @media screen and (max-width: 832px) {
 
 	#content {
