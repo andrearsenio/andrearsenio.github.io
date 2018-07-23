@@ -6,7 +6,10 @@
 
 header {
 	height: auto;
-	padding: 0px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
 	/*padding: 5 15px;*/
 }
 
@@ -22,6 +25,7 @@ header > i {
 .my-header h1 { 
   display: inline;
 }
+
 .my-header span { 
   float: right;
 		padding-top: 10px;
