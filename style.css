@@ -6,7 +6,7 @@
 
 header {
 	height: auto;
-	padding: 0px;
+	padding: 20px;
 	/*padding: 5 15px;*/
 }
 
@@ -17,6 +17,13 @@ header > img {
 header > i {
 	margin-bottom: 0.5rem;
 	display: block;
+}
+
+.my-header h1 { 
+  display: inline;
+}
+.my-header span { 
+  float: right;
 }
 
 #content {
@@ -59,6 +66,7 @@ footer {
 	header, footer {
 		padding: 4%;
 	}
+	
 }
 
 /* for 832px or less 832 because Mikas said so. And that is usually enough for me. */
