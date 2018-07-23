@@ -6,7 +6,8 @@
 
 header {
 	height: auto;
-	padding: 5 15px;
+	padding: 0px;
+	/*padding: 5 15px;*/
 }
 
 header > img {
@@ -19,16 +20,16 @@ header > i {
 }
 
 #content {
-	width: 445px;
+	width: 435px;
 	float: left;
-	padding: 5px 5px;
+	padding: 5px 10px;
 	margin: 5px 5px 5px 5px;
 }
 
 #middle {
-	width: 475px; /* Account for margins + border values */
+	width: 465px; /* Account for margins + border values */
 	float: left;
-	padding: 5px 5px;
+	padding: 5px 10px;
 	margin: 5px 5px 5px 5px;
 }
 
@@ -56,7 +57,7 @@ footer {
 	}
 
 	header, footer {
-		padding: 10%;
+		padding: 4%;
 	}
 }
 
