@@ -27,11 +27,11 @@ header > i {
 }
 
 .my-header span { 
-  float: right;
-		padding-top: 10px;
-		padding-right: 20px;
-		padding-bottom: 10px;
-		padding-left: 0px;
+	float: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 0px;
 }
 
 #content {
@@ -51,7 +51,17 @@ header > i {
 footer {
 	clear: both;
 	padding: 5 15px;
-	float: center;
+	text-align: center;
+}
+
+#smallfooter {
+	clear: both;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+	font-size: 65%;
 }
 
 /* for 980px or less */
