@@ -90,12 +90,12 @@ footer {
   }
   
 	#content {
-		width: auto;
+		width: 100%;
 		float: none;
 	}
 	
 	#middle {
-		width: auto;
+		width: 100%;
 		float: none;
 		margin-left: 0px;
 	}
@@ -104,6 +104,17 @@ footer {
 /* for 480px or less */
 @media screen and (max-width: 480px) {
 
+	#content {
+		width: 100%;
+		float: none;
+	}
+	
+	#middle {
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+	}
+	
   .one-image{visibility: hidden;
   display:none;  
   }
