@@ -56,8 +56,6 @@ footer {
 	text-align: center;
 }
 
-.mobileHide { display: inline; }
-
 /* for 980px or less */
 @media screen and (max-width: 980px) {
 	
@@ -80,11 +78,10 @@ footer {
 	}
 }
 
-/* for 832px or less 832 because Mikas said so. And that is usually enough for me. */
+/* for 832px or less because Mikas said so. And that is usually enough for me. */
 @media screen and (max-width: 832px) {
 
-    .mobileHide {display: none;
-				visibility:hidden;}
+    .mobileHide {display: none;}
   
 	#content {
 		width: auto;
