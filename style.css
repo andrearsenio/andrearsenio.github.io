@@ -81,6 +81,13 @@ footer {
 /* for 832px or less 832 because Mikas said so. And that is usually enough for me. */
 @media screen and (max-width: 832px) {
 
+header > img {
+	width: 100%;
+	float: center;
+	display: none; 
+	visibility:hidden
+}
+
 	#content {
 		width: auto;
 		float: none;
