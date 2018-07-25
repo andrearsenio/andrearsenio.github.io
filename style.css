@@ -81,8 +81,8 @@ footer {
 /* for 832px or less because Mikas said so. And that is usually enough for me. */
 @media screen and (max-width: 832px) {
 
-  img#imgRand {
-    display: none;
+  .one-image{visibility: hidden;
+  display:none;  
   }
   
 	#content {
