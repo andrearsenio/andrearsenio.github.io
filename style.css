@@ -56,16 +56,6 @@ footer {
 	text-align: center;
 }
 
-#smallfooter {
-	clear: both;
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	text-align: center;
-	font-size: 65%;
-}
-
 /* for 980px or less */
 @media screen and (max-width: 980px) {
 	
@@ -86,7 +76,6 @@ footer {
 	header, footer {
 		padding: 4%;
 	}
-	
 }
 
 /* for 832px or less 832 because Mikas said so. And that is usually enough for me. */
@@ -125,4 +114,14 @@ header, #content, #middle, {
 
 #pagewrap, header, #content, #middle, footer {
 	border: solid 0px #ccc;
+}
+
+#smallfooter {
+	clear: both;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+	font-size: 65%;
 }
