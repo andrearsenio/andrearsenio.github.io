@@ -2,12 +2,16 @@
 	background: #ffffff;
 }
 
-/* header, #content, #middle, {
-	margin-bottom: 5px;
-} */
+.right{
+    float:right;
+}
 
-/* Basically anything bigger than a tablet */
-@media (min-width: 768px) {
+.left{
+    float:left;
+}
+
+/* Basically anything bigger than a tablet - Based on Twitter Bootstrap */
+@media (min-width: 768px) { 
 
 	#pagewrap {
 		padding: 0px;
@@ -15,29 +19,24 @@
 		margin: 15px auto;
 		font-size: 14px;
 	}
-
 	header {
 		height: auto;
 		padding-top: 20px;
-		padding-right: 0px;
+		padding-right: 10px;
 		padding-bottom: 10px;
-		padding-left: 0px;
+		padding-left: 10px;
 	}
-
 	header > img {
 		width: 100%;
 		float: center;
 	}
-
 	header > i {
 		margin-bottom: 0.5rem;
 		display: block;
 	}
-
 	.my-header h1 { 
 	  display: inline;
 	}
-
 	.my-header span { 
 		float: right;
 		padding-top: 10px;
@@ -45,65 +44,65 @@
 		padding-bottom: 10px;
 		padding-left: 0px;
 	}
-
 	#content {
 		width: 435px;
 		float: left;
 		padding: 5px 10px;
 		margin: 5px 5px 5px 5px;
 	}
-
 	#middle {
 		width: 465px;
 		float: left;
 		padding: 5px 10px;
 		margin: 5px 5px 5px 5px;
 	}
-
 	footer {
 		clear: both;
 		padding: 5 15px;
 		text-align: center;
 	}
+	
+	#smallfooter {
+	clear: both;
+	padding: 1%;
+	text-align: center;
+	font-size: 80%;
+	}
+	
+	/* .rwd-break {display: none;} */
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-
+	 
 	header {
 		padding: 1%;
 	}
-	
 	.one-image{visibility: hidden;
 	display:none;  
 	}
-	
 	#pagewrap {
-		width: 100%;
-		padding: 1%;
+		width: 90%;
+		padding: 2%;
 	}
-	
 	#content {
 		width: 100%;
-		padding: 1%;
+		padding: 2%;
 	}
 	#middle {
 		width: 100%;
-		padding: 1%;
+		padding: 2%;
 	}
-	
 	footer {
 	clear: both;
 	padding: 2%;
 	text-align: center;
 	font-size: 80%;
 	}
-
 	#smallfooter {
 	clear: both;
-	padding: 2%;
+	padding: 1%;
 	text-align: center;
 	font-size: 60%;
 	}
-	
 }
