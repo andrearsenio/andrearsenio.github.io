@@ -11,7 +11,7 @@
 } */
 
 /* Landscape phone to portrait tablet */
-@media only screen  and (max-width: 767px) {
+@media (max-width: 767px) {
 	 
 	header {
 		padding: 1%;
@@ -46,7 +46,7 @@
 }
 
 /* Basically anything bigger than a tablet - Based on Twitter Bootstrap */
-@media only screen (min-width: 768px) { 
+@media (min-width: 768px) { 
 
 	#pagewrap {
 		padding: 0px;
