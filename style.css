@@ -1,3 +1,29 @@
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+	
+	  .one-image{visibility: hidden;
+  display:none;  
+  }
+
+	header, footer {
+		padding: 4%;
+	}
+}
+
 #pagewrap {
 	padding: 0px;
 	width: 960px;
@@ -55,31 +81,7 @@ footer {
 	text-align: center;
 }
 
-/* for 980px or less */
-@media screen and (max-width: 980px) {
-	
-	#pagewrap {
-		width: 94%;
-	}
-	#content {
-		width: 41%;
-		padding: 1% 4%;
-	}
-	#middle {
-		width: 41%;
-		padding: 1% 4%;
-		margin: 0px 0px 5px 5px;
-		float: right;
-	}
-	
-	  .one-image{visibility: hidden;
-  display:none;  
-  }
 
-	header, footer {
-		padding: 4%;
-	}
-}
 
 #content {
 	background: #ffffff;
