@@ -11,6 +11,7 @@ header {
 	padding-right: 0px;
 	padding-bottom: 10px;
 	padding-left: 0px;
+	/*padding: 5 15px;*/
 }
 
 header > img {
@@ -78,6 +79,51 @@ footer {
 
 	header, footer {
 		padding: 4%;
+	}
+}
+
+/* for 832px or less because Mikas said so. And that is usually enough for me. */
+@media screen and (max-width: 832px) {
+
+  .one-image{visibility: hidden;
+  display:none;  
+  }
+  
+	#content {
+		width: 100%;
+		float: none;
+	}
+	
+	#middle {
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	#content {
+		width: 100%;
+		float: none;
+	}
+	
+	#middle {
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+	}
+	
+  .one-image{visibility: hidden;
+  display:none;  
+  }
+  
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 2em;
 	}
 }
 
