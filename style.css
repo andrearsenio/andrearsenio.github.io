@@ -47,7 +47,7 @@
 }
 
 /* Basically anything bigger than a tablet - Based on Twitter Bootstrap */
-@media (min-width: 768px) { 
+/* @media (min-width: 768px) { 
 
 	#pagewrap {
 		padding: 0px;
@@ -106,4 +106,4 @@
 	}
 	
 	/* .rwd-break {display: none;} */
-}
+} */
