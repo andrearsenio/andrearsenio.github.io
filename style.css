@@ -1,63 +1,74 @@
-#pagewrap {
-	padding: 0px;
-	width: 960px;
-	margin: 15px auto;
-	font-size: 14px;
+/* Landscape phones and down */
+/* @media (max-width: 480px) { ... } */
+
+/* Landscape phone to portrait tablet */
+/* @media (max-width: 767px) { ... } */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#pagewrap {
+		padding: 0px;
+		width: 960px;
+		margin: 15px auto;
+		font-size: 14px;
+	}
+
+	header {
+		height: auto;
+		padding-top: 20px;
+		padding-right: 0px;
+		padding-bottom: 10px;
+		padding-left: 0px;
+	}
+
+	header > img {
+		width: 100%;
+		float: center;
+	}
+
+	header > i {
+		margin-bottom: 0.5rem;
+		display: block;
+	}
+
+	.my-header h1 { 
+	  display: inline;
+	}
+
+	.my-header span { 
+		float: right;
+		padding-top: 10px;
+		padding-right: 20px;
+		padding-bottom: 10px;
+		padding-left: 0px;
+	}
+
+	#content {
+		width: 435px;
+		float: left;
+		padding: 5px 10px;
+		margin: 5px 5px 5px 5px;
+	}
+
+	#middle {
+		width: 465px; /* Account for margins + border values */
+		float: left;
+		padding: 5px 10px;
+		margin: 5px 5px 5px 5px;
+	}
+
+	footer {
+		clear: both;
+		padding: 5 15px;
+		text-align: center;
+	}
 }
 
-header {
-	height: auto;
-	padding-top: 20px;
-	padding-right: 0px;
-	padding-bottom: 10px;
-	padding-left: 0px;
-}
+/* Portrait tablet to landscape and desktop */
+/* @media (min-width: 768px) and (max-width: 979px) { */
 
-header > img {
-	width: 100%;
-	float: center;
-}
-
-header > i {
-	margin-bottom: 0.5rem;
-	display: block;
-}
-
-.my-header h1 { 
-  display: inline;
-}
-
-.my-header span { 
-	float: right;
-	padding-top: 10px;
-	padding-right: 20px;
-	padding-bottom: 10px;
-	padding-left: 0px;
-}
-
-#content {
-	width: 435px;
-	float: left;
-	padding: 5px 10px;
-	margin: 5px 5px 5px 5px;
-}
-
-#middle {
-	width: 465px; /* Account for margins + border values */
-	float: left;
-	padding: 5px 10px;
-	margin: 5px 5px 5px 5px;
-}
-
-footer {
-	clear: both;
-	padding: 5 15px;
-	text-align: center;
-}
-
-/* for 980px or less */
-@media screen and (max-width: 980px) {
-	
+@media (max-width: 768px) {
 	#pagewrap {
 		width: 94%;
 	}
