@@ -2,13 +2,13 @@
 	background: #ffffff;
 }
 
-.right{
+/* .right{
     float:right;
 }
 
 .left{
     float:left;
-}
+} */
 
 /* Landscape phone to portrait tablet */
 @media only screen  and (max-width: 767px) {
