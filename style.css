@@ -13,7 +13,9 @@
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	 
-
+	.one-image{visibility: hidden;
+	display:none;  
+	}
 	#pagewrap {
 		width: 95%;
 		padding: 2%;
@@ -29,9 +31,7 @@
 	header {
 		padding: 1%;
 	}
-	.one-image{visibility: hidden;
-	display:none;  
-	}
+
 	footer {
 	clear: both;
 	padding: 1%;
