@@ -1,11 +1,13 @@
-/* Landscape phones and down */
-/* @media (max-width: 480px) { ... } */
+#content {
+	background: #ffffff;
+}
 
-/* Landscape phone to portrait tablet */
-/* @media (max-width: 767px) { ... } */
+/* header, #content, #middle, {
+	margin-bottom: 5px;
+} */
 
-/* Large desktop */
-@media (min-width: 1200px) {
+/* Basically anything bigger than a tablet */
+@media (min-width: 768px) {
 
 	#pagewrap {
 		padding: 0px;
@@ -52,7 +54,7 @@
 	}
 
 	#middle {
-		width: 465px; /* Account for margins + border values */
+		width: 465px;
 		float: left;
 		padding: 5px 10px;
 		margin: 5px 5px 5px 5px;
@@ -65,28 +67,29 @@
 	}
 }
 
-/* Portrait tablet to landscape and desktop */
-/* @media (min-width: 768px) and (max-width: 979px) { */
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
 
-@media (max-width: 768px) {
-	#pagewrap {
-		width: 94%;
+	header {
+		padding: 1%;
 	}
+	
+	.one-image{visibility: hidden;
+	display:none;  
+	}
+	
+	#pagewrap {
+		width: 100%;
+		padding: 1%;
+	}
+	
 	#content {
 		width: 100%;
-		padding: 2%;
+		padding: 1%;
 	}
 	#middle {
 		width: 100%;
-		padding: 2%;
-	}
-	
-	  .one-image{visibility: hidden;
-  display:none;  
-  }
-
-	header {
-		padding: 2%;
+		padding: 1%;
 	}
 	
 	footer {
@@ -101,28 +104,6 @@
 	padding: 2%;
 	text-align: center;
 	font-size: 60%;
-}
-	
 	}
-
-#content {
-	background: #ffffff;
-}
-
-header, #content, #middle, {
-	margin-bottom: 5px;
-}
-
-#pagewrap, header, #content, #middle, footer {
-	border: solid 0px #ccc;
-}
-
-#smallfooter {
-	clear: both;
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	text-align: center;
-	font-size: 65%;
+	
 }
