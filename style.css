@@ -63,23 +63,36 @@ footer {
 	}
 	#content {
 		width: 100%;
-		padding: 1% 4%;
+		padding: 2%;
 	}
 	#middle {
 		width: 100%;
-		padding: 1% 4%;
-		margin: 0px 0px 5px 5px;
-		float: right;
+		padding: 2%;
 	}
 	
 	  .one-image{visibility: hidden;
   display:none;  
   }
 
-	header, footer {
-		padding: 4%;
+	header {
+		padding: 2%;
 	}
+	
+	footer {
+	clear: both;
+	padding: 2%;
+	text-align: center;
+	font-size: 80%;
+	}
+
+	#smallfooter {
+	clear: both;
+	padding: 2%;
+	text-align: center;
+	font-size: 60%;
 }
+	
+	}
 
 #content {
 	background: #ffffff;
