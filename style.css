@@ -1,15 +1,3 @@
-/* #content {
-	background: #ffffff;
-} */
-
-/* .right{
-    float:right;
-}
-
-.left{
-    float:left;
-} */
-
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	 
@@ -45,7 +33,7 @@
 	}
 }
 
-/* Basically anything bigger than a tablet - Based on Twitter Bootstrap */
+/* Anything bigger than a tablet - Based on Twitter Bootstrap */
 /* @media (min-width: 768px) { 
 
 	#pagewrap {
@@ -103,4 +91,4 @@
 	text-align: center;
 	font-size: 80%;
 	}
-}
+}/*
