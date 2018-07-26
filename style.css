@@ -81,9 +81,9 @@
 		padding: 2%;
 	}
 	
-	  .one-image{visibility: hidden;
+/* 	  .one-image{visibility: hidden;
   display:none;  
-  }
+  } */
 
 	header {
 		padding: 2%;
@@ -113,9 +113,9 @@ header, #content, #middle, {
 	margin-bottom: 5px;
 }
 
-#pagewrap, header, #content, #middle, footer {
+/* #pagewrap, header, #content, #middle, footer {
 	border: solid 0px #ccc;
-}
+} */
 
 #smallfooter {
 	clear: both;
