@@ -10,6 +10,41 @@
     float:left;
 }
 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	 
+	header {
+		padding: 1%;
+	}
+	.one-image{visibility: hidden;
+	display:none;  
+	}
+	#pagewrap {
+		width: 90%;
+		padding: 2%;
+	}
+	#content {
+		width: 100%;
+		padding: 2%;
+	}
+	#middle {
+		width: 100%;
+		padding: 2%;
+	}
+	footer {
+	clear: both;
+	padding: 2%;
+	text-align: center;
+	font-size: 80%;
+	}
+	#smallfooter {
+	clear: both;
+	padding: 1%;
+	text-align: center;
+	font-size: 60%;
+	}
+}
+
 /* Basically anything bigger than a tablet - Based on Twitter Bootstrap */
 @media (min-width: 768px) { 
 
@@ -70,39 +105,4 @@
 	}
 	
 	/* .rwd-break {display: none;} */
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-	 
-	header {
-		padding: 1%;
-	}
-	.one-image{visibility: hidden;
-	display:none;  
-	}
-	#pagewrap {
-		width: 90%;
-		padding: 2%;
-	}
-	#content {
-		width: 100%;
-		padding: 2%;
-	}
-	#middle {
-		width: 100%;
-		padding: 2%;
-	}
-	footer {
-	clear: both;
-	padding: 2%;
-	text-align: center;
-	font-size: 80%;
-	}
-	#smallfooter {
-	clear: both;
-	padding: 1%;
-	text-align: center;
-	font-size: 60%;
-	}
 }
