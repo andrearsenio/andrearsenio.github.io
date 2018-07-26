@@ -17,7 +17,7 @@
 	display:none;  
 	}
 	#pagewrap {
-		width: 95%;
+		width: 90%;
 		padding: 2%;
 	}
 	#content {
@@ -29,9 +29,8 @@
 		padding: 2%;
 	}
 	header {
-		padding: 1%;
+		padding: 2%;
 	}
-
 	footer {
 	clear: both;
 	padding: 1%;
@@ -104,6 +103,4 @@
 	text-align: center;
 	font-size: 80%;
 	}
-	
-	/* .rwd-break {display: none;} */
-} */
+}
