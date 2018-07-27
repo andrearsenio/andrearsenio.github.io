@@ -78,12 +78,13 @@
 		padding: 2%;
 	}
 	
-  .one-image{visibility: hidden;
-		display:none;  
-	}
-
 	header {
 		padding: 2%;
+	}
+
+	header > i {
+		margin-bottom: 0.5%;
+		display: block;
 	}
 	
 	footer {
