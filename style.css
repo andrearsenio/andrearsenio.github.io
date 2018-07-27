@@ -1,13 +1,4 @@
-/* Landscape phones and down */
-/* @media (max-width: 480px) { ... } */
-
-/* Landscape phone to portrait tablet */
-/* @media (max-width: 767px) { ... } */
-
-/* Large desktop */
 @media only screen and (max-width: 600px) {
-/* @media (min-width: 768px) { */
-	
 	#pagewrap {
 		width: 94%;
 	}
@@ -34,17 +25,7 @@
 	text-align: center;
 	font-size: 80%;
 	}
-
-/* 	#smallfooter {
-	clear: both;
-	padding: 2%;
-	text-align: center;
-	font-size: 60%;
-} */
 }
-
-/* Portrait tablet to landscape and desktop */
-/* @media (min-width: 768px) and (max-width: 979px) { */
 
 @media only screen and (min-width: 600px) {
 	#pagewrap {
@@ -56,9 +37,9 @@
 	header {
 		height: auto;
 		padding-top: 5px;
-		padding-right: 15px;
+		padding-right: 0px;
 		padding-bottom: 5px;
-		padding-left: 0px;
+		padding-left: 10px;
 	}
 
 /* 	header > img {
@@ -95,7 +76,7 @@
 	}
 
 	#middle {
-		width: 465px; /* Account for margins + border values */
+		width: 465px;
 		float: left;
 		padding-top: 5px;
 		padding-right: 15px;
@@ -109,8 +90,7 @@
 		padding: 5px 15px;
 		text-align: center;
 	}
-	
-	}
+}
 
 /* #content {
 	background: #ffffff;
