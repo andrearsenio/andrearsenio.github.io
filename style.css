@@ -5,56 +5,61 @@
 /* @media (max-width: 767px) { ... } */
 
 /* Large desktop */
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
 
 	#pagewrap {
 		padding: 0px;
 		width: 960px;
-		margin: 15px auto;
+		margin: auto;
 		font-size: 14px;
 	}
 
 	header {
 		height: auto;
-		padding-top: 20px;
-		padding-right: 0px;
-		padding-bottom: 10px;
-		padding-left: 0px;
+		padding: 10px;
+		margin: 10px;
 	}
 
-	header > img {
-		width: 100%;
+/* 	header > img {
+		width: 60%;
 		float: center;
-	}
+	} */
 
 	header > i {
 		margin-bottom: 0.5rem;
 		display: block;
+		width: 100%;
 	}
 
 	.my-header h1 { 
-	  display: inline;
+		display: inline;
 	}
 
 	.my-header span { 
 		float: right;
-		padding-top: 10px;
-		padding-right: 20px;
-		padding-bottom: 10px;
+		padding-top: 5px;
+		padding-right: 15px;
+		padding-bottom: 5px;
 		padding-left: 0px;
 	}
 
 	#content {
 		width: 435px;
 		float: left;
-		padding: 5px 10px;
+		padding-top: 5px;
+		padding-right: 10px;
+		padding-bottom: 5px;
+		padding-left: 10px;
 		margin: 5px 5px 5px 5px;
 	}
 
 	#middle {
 		width: 465px; /* Account for margins + border values */
 		float: left;
-		padding: 5px 10px;
+		padding-top: 5px;
+		padding-right: 15px;
+		padding-bottom: 5px;
+		padding-left: 5px;;
 		margin: 5px 5px 5px 5px;
 	}
 
@@ -68,7 +73,7 @@
 /* Portrait tablet to landscape and desktop */
 /* @media (min-width: 768px) and (max-width: 979px) { */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#pagewrap {
 		width: 94%;
 	}
@@ -81,9 +86,9 @@
 		padding: 2%;
 	}
 	
-/* 	  .one-image{visibility: hidden;
-  display:none;  
-  } */
+  .one-image{visibility: hidden;
+		display:none;  
+	}
 
 	header {
 		padding: 2%;
@@ -96,22 +101,22 @@
 	font-size: 80%;
 	}
 
-	#smallfooter {
+/* 	#smallfooter {
 	clear: both;
 	padding: 2%;
 	text-align: center;
 	font-size: 60%;
-}
+} */
 	
 	}
 
-#content {
+/* #content {
 	background: #ffffff;
-}
+} */
 
-header, #content, #middle, {
+/* header, #content, #middle, {
 	margin-bottom: 5px;
-}
+} */
 
 /* #pagewrap, header, #content, #middle, footer {
 	border: solid 0px #ccc;
@@ -119,10 +124,7 @@ header, #content, #middle, {
 
 #smallfooter {
 	clear: both;
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	padding: 2%; 
 	text-align: center;
 	font-size: 65%;
 }
