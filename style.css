@@ -1,3 +1,21 @@
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: black;
+    background-color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
 @media (min-width: 1200px) {
 	#pagewrap {
 		width: 960px;
