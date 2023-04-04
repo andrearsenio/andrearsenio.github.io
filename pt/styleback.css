@@ -1,0 +1,150 @@
+#pagewrap {
+	padding: 0px;
+	width: 960px;
+	margin: 15px auto;
+	font-size: 14px;
+}
+
+header {
+	height: auto;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	/*padding: 5 15px;*/
+}
+
+header > img {
+	width: 100%;
+	float: center;
+}
+
+header > i {
+	margin-bottom: 0.5rem;
+	display: block;
+}
+
+.my-header h1 { 
+  display: inline;
+}
+
+.my-header span { 
+	float: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+#content {
+	width: 435px;
+	float: left;
+	padding: 5px 10px;
+	margin: 5px 5px 5px 5px;
+}
+
+#middle {
+	width: 465px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 10px;
+	margin: 5px 5px 5px 5px;
+}
+
+footer {
+	clear: both;
+	padding: 5 15px;
+	text-align: center;
+}
+
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+	
+	  .one-image{visibility: hidden;
+  display:none;  
+  }
+
+	header, footer {
+		padding: 4%;
+	}
+}
+
+/* for 832px or less because Mikas said so. And that is usually enough for me. */
+@media screen and (max-width: 832px) {
+
+  .one-image{visibility: hidden;
+  display:none;  
+  }
+  
+	#content {
+		width: 100%;
+		float: none;
+	}
+	
+	#middle {
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	#content {
+		width: 100%;
+		float: none;
+	}
+	
+	#middle {
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+	}
+	
+  .one-image{visibility: hidden;
+  display:none;  
+  }
+  
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 2em;
+	}
+}
+
+#content {
+	background: #ffffff;
+}
+
+header, #content, #middle, {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header, #content, #middle, footer {
+	border: solid 0px #ccc;
+}
+
+#smallfooter {
+	clear: both;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+	font-size: 65%;
+}
