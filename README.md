@@ -1,10 +1,19 @@
-# Welcome!
+# Setting up the self-hosted Cutive Mono font
 
-Here you can find all the code that underpins my [personal website](https://andrearsenio.com/) and which I adapted from [Joe Brown's](https://brown.gatech.edu/) with permission.
+To avoid depending on Google Fonts (which can be slow or blocked on poor connections),
+the site loads Cutive Mono from this folder.
 
-My main objectives here were:
+## Steps
 
-1. Have a website that reflects my love for typesetting, and
-2. Have it light enough to be accessed on a budget smartphone over a 2G network.
+1. Go to https://fonts.google.com/specimen/Cutive+Mono
+2. Click "Download family"
+3. Unzip the downloaded file
+4. Convert `CutiveMono-Regular.ttf` to WOFF2 using a tool like:
+   - https://cloudconvert.com/ttf-to-woff2
+   - or locally: `woff2_compress CutiveMono-Regular.ttf`
+5. Rename the output to `cutive-mono.woff2`
+6. Place it in this folder (`assets/fonts/`)
 
-I hope you like browsing it as much as I enjoyed coding it.
+The CSS uses `font-display: swap`, so the page renders immediately with
+the system monospace fallback and swaps to Cutive Mono once it loads —
+ideal for slow connections.
