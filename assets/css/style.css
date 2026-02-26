@@ -152,6 +152,7 @@ a:active  { color: #0000FF; }
 .lang-switcher a.active {
   text-decoration: underline;
   font-weight: bold;
+  color: black;
 }
 
 /* ============================================================
