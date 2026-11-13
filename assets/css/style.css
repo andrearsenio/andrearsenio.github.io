@@ -1,14 +1,15 @@
 /* ============================================================
    FONT
    Self-hosted Cutive Mono for reliability on slow connections.
-   Download cutive-mono.woff2 from Google Fonts and place it in
-   assets/fonts/ — see assets/fonts/README.md for instructions.
+   WOFF2 is a Latin subset (~20 KB vs 80 KB for the TTF); the TTF
+   is only fetched by browsers without WOFF2 support.
    The fallback stack ensures readable monospace even if the
    font file hasn't loaded (important for 2G users).
    ============================================================ */
 @font-face {
   font-family: 'Cutive Mono';
-  src: url('../fonts/CutiveMono-Regular.ttf') format('truetype');
+  src: url('../fonts/CutiveMono-Regular.woff2') format('woff2'),
+       url('../fonts/CutiveMono-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
