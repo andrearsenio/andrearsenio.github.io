@@ -144,14 +144,11 @@ a:active  { color: #0000FF; }
 
 /* ============================================================
    LANGUAGE SWITCHER
-   Active language is underlined so users know where they are.
+   The other language is a normal underlined link; the current
+   language is bold and not underlined, so users know where they are.
    ============================================================ */
-.lang-switcher a {
-  text-decoration: none;
-}
-
 .lang-switcher a.active {
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
   color: black;
 }
